@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "775810179108",
+    "project_id": "calre-27a13",
+    "storage_bucket": "calre-27a13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775810179108:android:f3aa3531ab1f4a785378b1",
+        "android_client_info": {
+          "package_name": "com.klair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775810179108-0kap4blsbngidn7f5n8u014rcdf0u0s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuoFmq1Qc07mSRZpApdj_o6rcvi3fhcjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775810179108-0kap4blsbngidn7f5n8u014rcdf0u0s8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "775810179108-qqeb51tp2h1loh4uhr9ik1d98p1ms3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kalir"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

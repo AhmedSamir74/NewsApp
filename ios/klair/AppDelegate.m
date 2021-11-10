@@ -3,9 +3,6 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-#import <AppCenterReactNative.h>
-#import <AppCenterReactNativeAnalytics.h>
-#import <AppCenterReactNativeCrashes.h>
 #import <Firebase.h>
 #import <React/RCTLinkingManager.h>
 
@@ -35,9 +32,6 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-[AppCenterReactNative register];
-[AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
-[AppCenterReactNativeCrashes registerWithAutomaticProcessing];
 if ([FIRApp defaultApp] == nil) {
     [FIRApp configure];
 }

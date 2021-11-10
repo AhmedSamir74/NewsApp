@@ -1,6 +1,6 @@
 import theme from '@assets/theme/theme';
 import { scaleHeight, scaleWidth } from '@utils/scaling';
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   layout: {
@@ -19,7 +19,7 @@ export default StyleSheet.create({
   searchInput: {
     flex: 1,
     marginStart: scaleWidth(10),
-    paddingVertical: Platform.select({ ios: scaleHeight(12), android: 0 }),
+    paddingVertical: scaleHeight(12),
   },
   newCardCont: {
     flexDirection: 'row',

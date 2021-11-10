@@ -24,10 +24,11 @@ export default StyleSheet.create({
   newCardCont: {
     flexDirection: 'row',
     backgroundColor: theme.colors.lightGray,
-    height: scaleHeight(110),
+    height: scaleHeight(120),
     marginBottom: scaleHeight(15),
     borderRadius: scaleHeight(10),
     overflow: 'hidden',
+    paddingBottom: scaleHeight(8),
   },
   darkNewCard: {
     backgroundColor: theme.colors.darkBlue,
